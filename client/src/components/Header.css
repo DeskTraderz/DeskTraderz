@@ -1,6 +1,6 @@
 /* src/components/Header.css */
-.header {
-  background-color: #1976d2; /* Change this to any color you like */
+.header-one {
+  background-color: #000!important; /* Change this to any color you like */
 }
 
 .header .MuiToolbar-root {

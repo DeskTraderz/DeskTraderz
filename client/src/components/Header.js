@@ -44,7 +44,7 @@ const Header = () => {
   );
 
   return (
-    <AppBar position="static" className="header">
+    <AppBar position="static" className="header-one">
       <Container>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
