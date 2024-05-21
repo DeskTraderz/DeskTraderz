@@ -1,0 +1,28 @@
+/* src/components/SliderSection.css */
+.slider-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+  }
+  
+  .slider-card {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: black;
+  }
+  
+  .slick-dots li button:before {
+    color: black;
+  }
+  .slick-slide{
+    margin: 0 10px;
+  }
+  .slick-dots{
+    display: none !important;
+  }
+  .slick-list{
+    height: 230px;
+  }

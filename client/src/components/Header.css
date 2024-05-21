@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+  background-color: #1976d2; /* Change this to any color you like */
+}
+
+.header .MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .MuiBox-root {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .header .MuiToolbar-root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .MuiToolbar-root {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .MuiToolbar-root {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
