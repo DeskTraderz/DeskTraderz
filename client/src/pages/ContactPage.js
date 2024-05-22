@@ -5,7 +5,7 @@ const ContactPage = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h1>Contact Us</h1>
-      <p>Contact page content goes here.</p>
+      <p>Contact page content goes here. me</p>
     </div>
   );
 }
